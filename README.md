@@ -1,7 +1,9 @@
 # Astrium
 
-Public Source of the Private Cheat Astrium.cc
+Public Source of the Private Cheat Astrium
 
+If a message box pops up as soon as you inject the cheat, go into csgocheat.cpp in line 59 and increase the number by one, or replace it with the number that shows when you type version in the csgo console(http://prntscr.com/goneuy).
+(https://github.com/AnonVodka/Astrium/blob/master/csgocheat/csgocheat.cpp#L59)
 
 Credits
 
