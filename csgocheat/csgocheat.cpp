@@ -56,7 +56,7 @@ void WINAPI CheatMain()
 	CNetvarManager::Instance()->CreateDatabase();
 	Hacks.Hook();
 
-	if (BuildNumber != 13604)
+	if (BuildNumber != 13605)
 	{
 		Interfaces.pEngine->ClientCmd_Unrestricted("cl_mouseenable 1", 0);
 		Interfaces.pEngine->ClientCmd_Unrestricted("crosshair 1", 0);
@@ -66,7 +66,7 @@ void WINAPI CheatMain()
 		
 		Hacks.UnHook();
 		Sleep(200);
-		MessageBox(0, "Outdated version detected, please try again later", "Astrium.cc", MB_OK);
+		MessageBox(0, "Outdated version detected, please try again later", "Astrium", MB_OK);
 		SetWindowLongPtr(INIT::Window, GWL_WNDPROC, reinterpret_cast< LONG_PTR >(INIT::OldWindow));
 		Sleep(200);
 
