@@ -56,7 +56,7 @@ void WINAPI CheatMain()
 	CNetvarManager::Instance()->CreateDatabase();
 	Hacks.Hook();
 
-	if (BuildNumber != 13605)
+	if (BuildNumber != 13606)
 	{
 		Interfaces.pEngine->ClientCmd_Unrestricted("cl_mouseenable 1", 0);
 		Interfaces.pEngine->ClientCmd_Unrestricted("crosshair 1", 0);
